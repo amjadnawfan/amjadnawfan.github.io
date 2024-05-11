@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Amjad Nawfan
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/e71c3c016b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="image/logo.png" alt="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Potfolio</a></li>
+                        <li><a href="#contect">contact</a></li>
+                        <i class="fas fa-solid fa-terminal" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-regular fa-compass" onclick="openmenu()"></i>
+                </nav>
+                <div id="header-text">
+                    <p>graphic desinger</p>
+                    <h1>Hi, I am <span>Amjad Nawfan</span> </h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Welcome to my creative corner! I'm 
+                            Mohamed Amjad, a 21-year-old 
+                            undergraduate at SLIIT, pursuing my 
+                            passion in BSc Hons Information Technology with a specialization in Interactive Media. With over three years of hands-on experience, I've honed my skills in graphic design, particularly
+                             in Adobe Photoshop and Illustrator.</p>
+
+                             <div class="tab-titel">
+                                <p class="tab-links active-link"  onclick="opentab(skills)">Skills</p>
+                                <p class="tab-links" onclick="opentab(experience)">Experience</p>
+                                <p class="tab-links" onclick="opentab(education)">Education</p>
+                             </div>
+                             <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Graphic Designing</span><br>Designing Graphical </li>
+                                    <li><span>Web devoloping</span><br>Designing and Devoloping the Web sites</li>
+                                </ul>
+                             </div>
+                             <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2019-2020</span><br>Designing Web/App interfaces</li>
+                                    <li><span>2020-2024</span><br>Designing Graphical </li>
+                                    <li><span>2024</span><br>Designing and Devoloping the Web sites</li>
+                                </ul>
+                             </div>
+                             <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2021</span><br>Designing Web/App interfaces</li>
+                                    <li><span>2022</span><br>Designing Graphical </li>
+                                    <li><span>2023</span><br>Designing and Devoloping the Web sites</li>
+                                </ul>
+                             </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Devoloping</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                            distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+                            and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Designing</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                            distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+                            and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Graphic Designing</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                            distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+                            and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Works</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media Post</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                                page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                                distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+                                and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/work-2.png">
+                        <div class="layer">
+                            <h3>Branding Post</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                                page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                                distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+                                and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/work-3.png">
+                        <div class="layer">
+                            <h3>Markating Post</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                                page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                                distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+                                and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div id="contect">
+            <div class="container">
+                <div class="row">
+                    <div class="contect-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> amjadnawfan6@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 075 732 1828</p>
+                    <div class="sosial-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/amjadnawfan?igsh=aWJxdGYzbHZ0YjVs"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/amjad-nawfan-b562872b6"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/qr/OC2AK4MVE7BNM1"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contect-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name">
+                            <input type="email" name="email" placeholder="Your E mail" required>
+                            <textarea name="message" rows="6" placeholder="Yur message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2022 Amjad Nawfan. All rights reserved</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+    
+            function opentab(tabname){
+                for(tablink of tablinks ){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents ){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
